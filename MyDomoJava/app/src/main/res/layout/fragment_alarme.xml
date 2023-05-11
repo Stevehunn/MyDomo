@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.alarme.AlarmeFragment"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+    android:background="@color/white">
+
+
+    <TimePicker
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnActiveAlarme"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Activer l'alarme"/>
+
+
+
+        <Button
+            android:id="@+id/btnDesactiveAlarme"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Désactiver l'alarme"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/afficheEtatAlarme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="L'alarme n'est pas activé"
+        style="@style/titre"/>
+
+
+</LinearLayout>

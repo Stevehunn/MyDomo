@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/maison"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_salon"
+            android:icon="@drawable/salon"
+            android:title="@string/menu_salon" />
+        <item
+            android:id="@+id/nav_chambre"
+            android:icon="@drawable/chambre"
+            android:title="@string/menu_chambre" />
+
+        <item
+            android:id="@+id/nav_clock"
+            android:icon="@drawable/temps"
+            android:title="@string/menu_alarme" />
+
+
+
+    </group>
+</menu>

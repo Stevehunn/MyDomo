@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">MyDomo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Option</string>
+
+    <string name="menu_home">Accueil</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_salon">Salon</string>
+    <string name="menu_chambre">Chambre</string>
+    <string name="menu_alarme">Alarme</string>
+    <string name="menu_option">Option</string>
+
+    <string name="powerby">Power By Raspberry pi 3</string>
+
+    <string name="temperature">Capteur de Température</string>
+    <string name="humidity">Capteur d\'Humidité</string>
+    <string name="luminosity">Capteur de Luminosité</string>
+    <string name="mouvement">Capteur de Mouvement</string>
+    <string name="pollution">Capteur de Pollution CO2</string>
+    <string name="tvoc">Capteur de Pollution Tvoc</string>
+
+    <string name="titre_capteur_mouv">Dernier mouvement détecté dans les pièces suivantes :</string>
+    <string name="tempActuel">Température actuel en °C</string>
+    <string name="humidActuel">Humidité Actuel</string>
+    <string name="lumiActuel">Luminosité Actuel en Lux</string>
+    <string name="mouvActuel">Mouvement dans la pièce</string>
+
+    <string name="action_temperature">Temperature</string>
+    <string name="action_humidite">Humidité</string>
+    <string name="action_luminosite">Luminosité</string>
+    <string name="action_mouvement">Mouvement</string>
+    <string name="action_pollution">Pollution CO2</string>
+    <string name="action_tvoc">Pollution Tvoc</string>
+
+
+    <string name="buttonHome">Accueil</string>
+    <string name="buttonVersTmp">Capteur de température</string>
+    <string name="buttonVersHum">Capteur d\'humidité</string>
+    <string name="buttonVersLum">Capteur de luminosité</string>
+    <string name="buttonVersMouv">Capteur de mouvement</string>
+    <string name="buttonVersPol">Capteur de pollution</string>
+    <string name="buttonVersTvoc">Capteur Tvoc</string>
+    <string name="buttonRefresh">Recharger</string>
+
+    <string name="explicationTvoc">*TVOC = Volatile Organic Compounds</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="channel_name">My Notification</string>
+    <string name="channel_description">contenue de la notification</string>
+
+
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="titre">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_marginBottom">40dp</item>
+    </style>
+
+
+    <style name="titrePaysage">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+
+    <style name="titreMenu">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+    </style>
+
+    <style name="titreMenuBlanc">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+    </style>
+
+    <style name="image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="imagepaysage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="normaltext">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+    </style>
+
+    <style name="btRetour">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">90px</item>
+        <item name="android:layout_height">120px</item>
+        <item name="android:theme">@style/Theme.MyDomo</item>
+
+    </style>
+
+    <style name="btExercice">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/Theme.MyDomo</item>
+    </style>
+
+    <style name="btExercicePaysage">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/Theme.MyDomo</item>
+    </style>
+
+    <style name="btBasGauche">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:theme">@style/Theme.MyDomo</item>
+    </style>
+
+    <style name="btBasGauchePaysage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:theme">@style/Theme.MyDomo</item>
+    </style>
+
+    <style name="btBasDroit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:theme">@style/Theme.MyDomo</item>
+    </style>
+
+    <style name="btBasDroitPaysage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:theme">@style/Theme.MyDomo</item>
+    </style>
+
+    <style name="btSuivant">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">41dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:theme">@style/Theme.MyDomo</item>
+
+
+    </style>
+
+
+</resources>
